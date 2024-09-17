@@ -1,0 +1,163 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #101010;
+    min-height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 3rem;
+
+}
+.header {
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-color: #101010;
+    border-bottom: 1px solid white;
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 200;
+
+}
+.logo_container h1 span {
+    font-weight: 500;
+}
+#dlogo {
+    font-weight: 800;
+    color: gold;
+    font-size: 48px;
+}
+.navigation {
+    float: right;
+    height: 100%;
+}
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a:last-child {
+    padding-right: 0px;
+}
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.navigation a li:hover {
+    color: gold;
+    text-decoration: underline;
+}
+.body {
+    box-sizing: border-box;
+}
+.col1 {
+    float: left;
+    width: 45%;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 475px;
+    margin: 30px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    background-color: rgba(123, 123, 245, 0.842);
+    line-height: 2;
+}
+.pic {
+    background: url("./LuffyG4.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    padding: 1rem;
+    background-color: #44B78B;
+    color: white;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #81dbb8;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+.contain {
+    width:"60%";
+    height: 100%;
+    align-items: center;
+}
+.banner {
+    display: block;
+    width:100%;
+    max-width: 800px;
+
+}
+
+.designed-form {
+    font-size: 12px;
+    text-align: justify;
+    width: 800px;
+    padding: 24px;
+}
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+/* .logout {
+
+} */
